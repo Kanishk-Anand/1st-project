@@ -1,0 +1,199 @@
+#Wrapper{
+ height:100%;
+ width:100%;
+ }
+ body{
+ background-image:url('property.jpg');
+ height:100%;
+ width:100%;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ overflow:hidden;
+ background-size:100% 100%;
+} 
+ #login_form{
+	 
+ }
+td{
+padding-top:10px;
+font-size:25px;
+font-family: fantasy;
+text-align:center;
+}
+#login{
+height:350px;
+width: 400px;
+float:left;
+margin-top:70px;
+background-color:rgba(241, 241, 241, 0.59);
+border-style:solid;
+border-color: white;
+border-width:5px;
+
+margin-left:450px;
+}
+.login_list{
+font-size:25px;
+font-family:monospace;
+list-style:none;
+color:black;
+
+float:left;
+}
+#signup{
+	height:70px;
+	width:300px;
+	background-color:rgba(241, 241, 241, 0.85);
+	float:left;
+	margin-top:300px;
+	border: 2px solid white;
+	margin-left:-360px;
+	text-align:center;
+	padding:2px;
+	color:black;
+}
+#signbtn{
+	height:50px;
+	width:300px;
+	font-size:45px;
+	font-family:Serif;
+	color:black;
+}
+#buy{
+height:150px;
+width:400px;
+float:left;
+margin-left:-400px;
+font-size:40px;
+font-family:cursive;
+color:black;
+border-style:inset;
+border-color: #52a3cc;
+border-radius:10px;
+margin-top:150px;
+text-align:center;
+padding-top:35px;
+
+}
+#bg{
+height:150px;
+width:400px;
+float:left;
+margin-top:150px;
+}
+#bg img{
+opacity:0.1;
+height:190px;
+width:400px;
+border-radius:10px;
+overflow:hidden;
+}
+#bg img:hover{
+opacity:0.4;
+height:190px;
+width:400px;
+border-radius:10px;
+overflow:hidden;
+}
+#bg-lease{
+	height: 150px;
+	width:400px;
+	float:left;
+	margin-top: 350px;
+	margin-left:-400px;
+	
+
+}
+#bg-lease img{
+opacity:0.1;
+height:190px;
+width:400px;
+border-radius:10px;
+overflow:hidden;
+}
+#bg-lease img:hover{
+opacity:0.4;
+height:190px;
+width:400px;
+border-radius:10px;
+overflow:hidden;
+}
+#lease{
+height:150px;
+width:400px;
+float:left;
+margin-left:-400px;
+font-size:40px;
+font-family:cursive;
+color:black;
+border-style:inset;
+border-color: #52a3cc;
+border-radius:10px;
+margin-top:350px;
+text-align:center;
+padding-top:35px;
+
+}
+#lease p:hover{
+	opacity:1.5;
+}
+a:hover{
+	color:black;
+}
+a{
+	color:black;
+}
+a:visited{
+	color:black;
+}
+a:link{
+	color:black;
+}
+li{
+	padding:5px;
+	margin-top:2px;
+}
+#btn{
+	height:50px;
+	width:300px;
+	background-color:#4d88ff;
+	float:left;
+	margin-left:45px;
+	font-family:Georgia;
+	font-size:30px;
+	text-align:center;
+	padding:2px;
+	overflow:hidden;
+	border:none;
+	color:white;
+	margin-top:-20px;
+	
+}
+#heading{
+	height:100px;
+	width:100%;
+	float:left;
+	margin-top:50px;
+	margin-left:100px;
+	
+}
+#small_heading{
+	font-family: Gill Sans, Verdana;
+	font-size: 11px;
+	line-height: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: bold;
+	color:white;
+}
+#large_heading{
+	font-family: times, Times New Roman, times-roman, georgia, serif;
+	color: white;
+	margin: 0;
+	padding: 0px 0px 10px 0px;
+	font-size: 51px;
+	line-height: 44px;
+	letter-spacing: -2px;
+	font-weight: bold;
+	margin-left:20px;
+}
