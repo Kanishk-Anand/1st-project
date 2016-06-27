@@ -1,0 +1,53 @@
+#Wrapper{
+ height:100%;
+ width:100%;
+ }
+html { 
+  background: url('about-us-bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+	text-align:center;
+	font-family:Georgia;
+	color:#99e699;
+	font-size:70px;
+}
+ul{
+text-decoration:none;
+list-style:none;
+}
+li{
+	font-family:Arial;
+	font-size:22px;
+	text-align:center;
+	padding:5px;
+	color:white;
+}
+img{
+	height:150px;
+	width:150px;
+	border:5px solid;
+	border-radius:50%;
+	
+}
+#kanishk{
+	margin-top:-200px;
+	margin-left:-250px;
+	
+}
+#vartika{
+	margin-top:-100px;
+}
+#lines{
+	float:right;
+	height:350px;
+	width:400px;
+	color:#ffff80;
+	font-family:Sans-seriff;
+	font-size:45px;
+	margin-right:200px;
+	margin-top:-280px;
+}

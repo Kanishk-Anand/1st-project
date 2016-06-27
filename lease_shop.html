@@ -1,0 +1,85 @@
+<html>
+	<head>
+		<title>Lease|Shops</title>
+		<link rel="stylesheet" type="text/css" href="lease_shop.css">
+		
+	</head>
+	<body>
+		<div id="Wrapper">
+		<div>
+	<input id=buttn style="font-size: 20px;
+    font-family: monospace;
+    float:right;
+    margin-right: 30px;
+    margin-top: 10px;" type="button" value="Go Back!" onclick="window.location.href='lease_options.html'">
+            </div>
+    
+			<div id="form">
+				<form action="insert_lease_shop.jsp" method="post">
+				<ul>
+					<li>Address line 1<input type="text" name="line1" class="field"></li>
+					<li>Address line 2<input type="text" name="line2" class="field"></li>
+					<li>City <input type="text" name="city" class="field" style="margin-left:90px"></li>
+					<li>Pincode <input type="text" name="pin" class="field"></li>
+					<li>State <select name="state"  class="field">
+						<option value="Andhra Pradesh">Andhra Pradesh</option>
+						<option value="Arunanchal Pradesh">Arunanchal Pradesh</option>
+						<option value="Assam">Assam</option>
+						<option value="Bihar">Bihar</option>
+						<option value="Chattisgarh">Chattisgarh</option>
+						<option value="Goa">Goa</option>
+						<option value="Gujarat">Gujarat</option>
+						<option value="Haryana">Haryana</option>
+						<option value="Himachal Pradesh">Himachal Pradesh</option>
+						<option value="Jammu and Kashmir">Jammu and Kashmir</option>
+						<option value="Jharkhand">Jharkhand</option>
+						<option value="Karnataka">Karnataka</option>
+						<option value="Kerela">Kerela</option>
+						<option value="Madhya Pradesh">Madhya Pradesh</option>
+						<option value="Maharashtra">Maharashtra</option>
+						<option value="Manipur">Manipur</option>
+						<option value="Meghalaya">Meghalaya</option>
+						<option value="Mizoram">Mizoram</option>
+						<option value="Nagaland">Nagaland</option>
+						<option value="Odisha">Odisha</option>
+						<option value="Punjab">Punjab</option>
+						<option value="Rajasthan">Rajasthan</option>
+						<option value="Sikkim">Sikkim</option>
+						<option value="Tamil Nadu">Tamil Nadu</option>
+						<option value="Telangana">Telangana</option>
+						<option value="Tripura">Tripura</option>
+						<option value="Uttar Pradesh">Uttar Pradesh</option>
+						<option value="Uttarakhand">Uttarakhand</option>
+						<option value="West Bengal">West Bengal</option>
+						</select>
+						</li>
+					<li>Shop size<input type="text" name="size" placeholder="in sq.ft" class="field">
+					<li>Godown <select name="godown" class="field">
+								<option value="No">No</option>
+								<option value="Yes">Yes</option>
+								</select>
+					</li>
+					<li>Furnished <select name="furniture" class="field">
+											<option>-Select-</option>
+											<option value="Yes">Yes</option>
+											<option value="No">No</option>
+											</select></li>
+					<li>Contract duration <select name="contract" class="field">
+											<option value="1 year">1 year</option>
+											<option value="2 years">2 years</option>
+											<option value="3 years">3 years </option>
+											<option value="4 years">4 years</option>
+											</select>
+					</li>
+					<li> Expected Rent <input type="text" name="rent" class="field"></li>
+					</ul>
+					<br><br>
+					<input type="submit" value="Submit" id="btn">
+					</form>
+				</div>
+			</div>
+		</body>
+	</html>
+					
+					
+				

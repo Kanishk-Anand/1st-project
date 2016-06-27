@@ -1,0 +1,56 @@
+#Wrapper{
+ height:100%;
+ width:100%;
+ }
+ body{
+ background-image:url('rent.jpg');
+ height:100%;
+ width:100%;
+ background-repeat:no-repeat;
+ background-attachment:fixed;
+ /*overflow:hidden;*/
+} 
+
+#rent-list{
+	height:300px;
+	width:550px;
+	float:left;
+	
+	border-style:inset;
+	
+	background:-moz-linear-gradient(top, #f2f6f8 0%, #d8e1e7 50%, #b5c6d0 51%, #e0eff9 100%); 
+	border-style:none;
+	border-width:5px;
+	border-radius:8px;
+	margin-left:300px;
+	clear:both;
+
+}
+li{
+	text-decoration:none;
+	font-size:30px;
+	font-family:sans-serif;
+	padding:10px;
+	color:#ccffcc;
+	list-style:none;
+	text-align:left;
+	
+}
+#buttn{
+    cursor:pointer;
+    border:1px solid black;
+    -webkit-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+    font-size: 20px;
+    font-family: monospace;
+    float:right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+#buttn:hover{
+    cursor:pointer;
+    border:1px solid white;
+    background-color: rgba(100,100,100,10);
+    color:rgba(255, 255, 255, 0.9);
+    
+}
